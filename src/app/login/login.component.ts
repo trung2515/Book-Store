@@ -3,8 +3,6 @@ import { from } from 'rxjs';
 import { MainService } from '../mainservice.service';
 import { Router } from '@angular/router';
 
-
-
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -15,7 +13,7 @@ export class LoginComponent implements OnInit {
   
   account: string = ""
   password: string = ""
-  checkLg:string = ""
+  checkLg:string="zz"
   n:boolean = false
   datalogin: any = [];
   dataUser:any = [
@@ -24,19 +22,10 @@ export class LoginComponent implements OnInit {
       password:""
     }
   ];
-  constructor(private callApi: MainService, private router: Router) {
-    
-   }
-
-  
+  constructor(private callApi: MainService, private router: Router) { }
 
   ngOnInit(): void {
   }
-
-timeLogin = new Date()
-test(){console.log(this.timeLogin);
-
-}
 // cach 1 (dung vong for)
   login() {
     
@@ -48,16 +37,12 @@ test(){console.log(this.timeLogin);
       this.datalogin = data;
       for(let i = 0; 0 <= i <this.datalogin.length ; i++){
         if(this.datalogin[i].account == this.dataUser.account && this.datalogin[i].password == this.dataUser.password){
-          this.n = true;
-          localStorage.setItem("id",this.datalogin[i].id)
-          
-          
+          this.n = true
         }else{
           this.checkLg ="đăng nhập thất bại"
         }
         if(this.n==true){
           this.router.navigate(['/home'])
-          localStorage.setItem('account', this.account)
         }
       }
     });
