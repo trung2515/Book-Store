@@ -13,6 +13,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CreateComponent } from './create/create.component';
 import { FooterComponent } from './homepage/footer/footer.component';
+import { PopStatusComponent } from './homepage/pop-status/pop-status.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+
 
 @NgModule({
   declarations: [
@@ -25,12 +29,16 @@ import { FooterComponent } from './homepage/footer/footer.component';
     HomepageComponent,
     CreateComponent,
     FooterComponent,
+    PopStatusComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MatDialogModule,
+    BrowserAnimationsModule
   ],
   providers: [  ],
   bootstrap: [AppComponent]

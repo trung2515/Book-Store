@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   
   account: string = ""
   password: string = ""
-  checkLg:string="zz"
+  checkLg:string = ""
   n:boolean = false
   datalogin: any = [];
   dataUser:any = [
@@ -37,12 +37,14 @@ export class LoginComponent implements OnInit {
       this.datalogin = data;
       for(let i = 0; 0 <= i <this.datalogin.length ; i++){
         if(this.datalogin[i].account == this.dataUser.account && this.datalogin[i].password == this.dataUser.password){
-          this.n = true
+          this.n = true;
+          localStorage.setItem("id",this.datalogin[i].id)
         }else{
           this.checkLg ="đăng nhập thất bại"
         }
         if(this.n==true){
           this.router.navigate(['/home'])
+          localStorage.setItem('account', this.account)
         }
       }
     });
