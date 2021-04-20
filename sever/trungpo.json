@@ -30,7 +30,7 @@
     {
       "id": 2,
       "account": "trung2515",
-      "statusContent": "tet"
+      "statusContent": "test status"
     },
     {
       "account": "hai97",
@@ -44,7 +44,7 @@
     },
     {
       "account": "chuong97",
-      "statusContent": [],
+      "statusContent":"sorry sorry",
       "id": 5
     },
     {
@@ -53,19 +53,29 @@
       "id": 6
     },
     {
-      "account": "chuong97",
-      "statusContent": "scroll",
+      "account": "camngu",
+      "statusContent": "Hiện cổ phiếu VHM nhà tỷ phú Phạm Nhật Vượng đang trên đà tăng nhẹ. Tính chung1 tháng qua cổ phiếu này tăng gần 5% giá trị.  Liên quan tới mã này, mới đây Tập đoàn Vingroup – CTCP vừa công bố quyết định của Tổng giám đốc phê duyệt một số nội dung liên quan đến Trái phiếu phát hành bởi Tập đoàn Vingroup ra thị trường quốc tế.  Cụ thể, Vingroup sẽ phát hành 500 triệu USD trái phiếu ký hạn 5 năm (đáo hạn vào năm 2026), Lãi suất danh nghĩa trái phiếu (coupon) 3%/năm. Mệnh giá 200.000 USD/trái phiếu. Giá chào bán bằng 100% giá trị phát hành trái phiếu.   Đây là loại trái phiếu có thể thực hiện quyền chọn nhận cổ phiếu CTCP Vinhomes niêm yết trên Sở GDCK TP.HCM (cổ phiếu VHM). Giá thực hiện quyền chọn nhận cổ phiếu tại ngày phát hành là 123.000 đồng/cp VHM (xác định bằng 120% giá đóng cửa cổ phiếu VHM vào ngày phát hành 13/4/2021). ",
       "id": 7
     },
     {
-      "account": "camngu",
-      "statusContent": "cam khôn đang cảm thấy buồn nôn",
+      "account": "chuong97",
+      "statusContent": "scroll",
       "id": 8
     },
     {
       "account": "camngu",
-      "statusContent": "Hiện cổ phiếu VHM nhà tỷ phú Phạm Nhật Vượng đang trên đà tăng nhẹ. Tính chung1 tháng qua cổ phiếu này tăng gần 5% giá trị.  Liên quan tới mã này, mới đây Tập đoàn Vingroup – CTCP vừa công bố quyết định của Tổng giám đốc phê duyệt một số nội dung liên quan đến Trái phiếu phát hành bởi Tập đoàn Vingroup ra thị trường quốc tế.  Cụ thể, Vingroup sẽ phát hành 500 triệu USD trái phiếu ký hạn 5 năm (đáo hạn vào năm 2026), Lãi suất danh nghĩa trái phiếu (coupon) 3%/năm. Mệnh giá 200.000 USD/trái phiếu. Giá chào bán bằng 100% giá trị phát hành trái phiếu.   Đây là loại trái phiếu có thể thực hiện quyền chọn nhận cổ phiếu CTCP Vinhomes niêm yết trên Sở GDCK TP.HCM (cổ phiếu VHM). Giá thực hiện quyền chọn nhận cổ phiếu tại ngày phát hành là 123.000 đồng/cp VHM (xác định bằng 120% giá đóng cửa cổ phiếu VHM vào ngày phát hành 13/4/2021). ",
+      "statusContent": "cam khôn đang cảm thấy buồn nôn",
       "id": 9
+    },
+    {
+      "account": "camngu",
+      "statusContent": "Hiện cổ phiếu VHM nhà tỷ phú Phạm Nhật Vượng đang trên đà tăng nhẹ. Tính chung1 tháng qua cổ phiếu này tăng gần 5% giá trị.  Liên quan tới mã này, mới đây Tập đoàn Vingroup – CTCP vừa công bố quyết định của Tổng giám đốc phê duyệt một số nội dung liên quan đến Trái phiếu phát hành bởi Tập đoàn Vingroup ra thị trường quốc tế.  Cụ thể, Vingroup sẽ phát hành 500 triệu USD trái phiếu ký hạn 5 năm (đáo hạn vào năm 2026), Lãi suất danh nghĩa trái phiếu (coupon) 3%/năm. Mệnh giá 200.000 USD/trái phiếu. Giá chào bán bằng 100% giá trị phát hành trái phiếu.   Đây là loại trái phiếu có thể thực hiện quyền chọn nhận cổ phiếu CTCP Vinhomes niêm yết trên Sở GDCK TP.HCM (cổ phiếu VHM). Giá thực hiện quyền chọn nhận cổ phiếu tại ngày phát hành là 123.000 đồng/cp VHM (xác định bằng 120% giá đóng cửa cổ phiếu VHM vào ngày phát hành 13/4/2021). ",
+      "id": 10
+    },
+    {
+      "account": "chuong97",
+      "statusContent": "scroll",
+      "id": 11
     }
   ]
 }

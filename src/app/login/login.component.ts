@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  tet:string ="zz"
+  tet:string =""
   
   account: string = ""
   password: string = ""
