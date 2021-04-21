@@ -1,0 +1,20 @@
+<div class="login-header">
+    <img src="../../assets/img/logoTrupo.jpg" alt="logo" width="180x" height="80px" style="margin: 10px 0px 0px 10px;">
+</div>
+
+<div style="padding: 100px 25% 100px 25%;">
+    <div class="login-input">
+        <div>
+            <label style="margin-left:50px;" for="account">Tài khoản</label>
+            <input id="account" type="text" placeholder="Nhập tài khoản" [(ngModel)]="account">  
+        </div>
+            
+        <div>
+            <label style="margin-left:50px;" for="password">Mật Khẩu</label>
+            <input id="password" type="password" placeholder="Nhập mật khẩu" [(ngModel)]="password">
+        </div>
+        <div><button (click)="create()">Đăng ký</button></div>
+        <li style="margin: 20px 0px 0px 400px;"><a style="text-decoration: none; color: black;" routerLink="/login" routerLinkActive="active">Quay lại trang đăng nhập</a></li>
+    </div>
+    <div style="display: flex;justify-content: center; padding-left: 130px;"><h1>{{checkCreate}}</h1></div>
+</div>
