@@ -44,7 +44,7 @@
     },
     {
       "account": "chuong97",
-      "statusContent":"sorry sorry",
+      "statusContent": "sorry sorry",
       "id": 5
     },
     {
@@ -76,6 +76,11 @@
       "account": "chuong97",
       "statusContent": "scroll",
       "id": 11
+    },
+    {
+      "account": "trung2515",
+      "statusContent": "phong van",
+      "id": 12
     }
   ]
 }
