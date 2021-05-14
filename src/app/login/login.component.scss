@@ -6,8 +6,8 @@
 }
 
 #password, #account     {
-    width: 60%;
-    height: 30px;
+    width: 75%;
+    height: 50px;
     border: solid 1px black;
     border-radius: 25px;
     outline: none;
@@ -37,10 +37,10 @@ button:hover{
     border: 1px solid blue;
 }
 
-@media screen and (min-width:600px){
+@media screen and (max-width:600px){
     #password, #account {
-        width: 75%;
-        height: 50px;
+    width: 60%;
+    height: 30px;
     }
-
+   
 }

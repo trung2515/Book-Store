@@ -39,7 +39,7 @@
     outline: none;
     font-size: 14px;
     padding-left: 5px;
-    margin-left: 15px;
+    margin-left: 5%;
 }
 .flex-icon{
     display: flex;
@@ -70,4 +70,8 @@
 
 .setting-hv:hover{
     opacity: 0.5;
+}
+@media screen and(max-width:1024px) {
+    .setting{width: 20%;}
+    
 }
