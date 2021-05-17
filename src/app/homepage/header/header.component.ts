@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
+import { MainService } from '../../mainservice.service'
 import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-header',
@@ -8,18 +11,18 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit { 
 
-  constructor(private router: Router) {}
+  constructor(private router: ActivatedRoute,private Router:Router) {}
 
   ngOnInit(): void {
   }
   
-  show: boolean = false 
-
- toggleMenu(){
-  this.show = !this.show
+ goCart(){
+   let id = localStorage.getItem('id')
+  this.Router.navigate([`/cart/${id}`])
  }
-
- logOut(){
-  this.router.navigate(['/login'])
+ logout(){
+   localStorage.removeItem('id')
+   localStorage.removeItem('cart')
+   this.Router.navigate([`/login`])
  }
 }

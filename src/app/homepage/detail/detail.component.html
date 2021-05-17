@@ -1,0 +1,58 @@
+<div style="background-color: #f5f5fa;height: auto;min-height: 100vh;width: 100%;">
+    <app-header></app-header>
+    <div class="d-flex flex-column align-items-center ">
+        <div class="detail-body" >     
+            <div class="row">
+                <div class="col-sm-5 ">
+                    <img class="img-fluid" src="{{bookDetail.source}}" alt="">
+                </div>
+                <div class="col-sm-7 ">
+                    <div class="font-name"> {{bookDetail.name}}</div>
+                    <div class="font-author"> tác giả : {{bookDetail.author}} </div>
+                    <div class="mt-4 font-author" style="font-size: 30px; color: orange; font-weight: bold; background-color: #f5f5fa;padding: 10px;border-radius: 10px;">
+                        <P>{{bookDetail.price}}  ₫</P>
+                        <div class="d-flex align-items-center" style="font-size: 22px; color: #3389C1;">
+                            <img style="width:auto;height:30px;padding-right: 20px; "  src="../../../assets/img/freeship.png" alt="" > Miễn phí vận chuyển
+                        </div>
+                    </div>
+                    <div class="mt-4 d-flex py-2" style="border-top:1px solid #f5f5fa; border-bottom: 1px solid  #f5f5fa;">
+                        <div class="d-flex align-items-center" style="font-size: 16px; color: #3389C1;">
+                             Mã giảm giá
+                        </div>
+                    </div>
+                    <div class="mt-4" style="font-size: 30px; color: orange; font-weight: bold; background-color: #f5f5fa;padding: 10px;border-radius: 10px;">
+                        <div class="d-flex  flex-column " style="font-size: 22px; color: #3389C1;">
+                            <div class="input-group mb-3 " style="width:120px">
+                                <span class="input-group-text" (click)="quantity(false)"><i class="fas fa-minus"></i></span>
+                                <input style="background-color: white;" type="text" disabled class="form-control text-center" value="{{count}}">
+                                <span class="input-group-text" (click)="quantity(true)"><i class="fa fa-plus"></i></span>
+                            </div>
+                            <button class="btn btn-danger w-sm-50 " (click)="addToCart()">Thêm Vào Giỏ Hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="detail-body row" >
+            <span class="fs-5 fw-bold py-3">Thông Tin sản Phẩm</span>
+            <div class="col-xs-6 col-2 py-2" style="background-color: #f5f5fa;">
+                năm xuất bản <br>
+                Thể Loại <br>
+                Kích thước
+            </div>
+            <div class="col-xs-6 col-10  col-xs-6 py-2">
+                <div class="col-sm-2">
+                    {{bookDetail.description.publishing}}  <br>
+                    {{bookDetail.description.category}} <br>
+                    {{bookDetail.description.size}} 
+                    
+                </div>
+            </div>
+        </div>
+        <div class="detail-body row" >
+            <span class="fs-5 fw-bold py-2">Mô tả sản phẩm</span>
+            <p class="font-mt">{{bookDetail.description.title}}</p>
+            <p>{{bookDetail.description.Content}}</p>
+        </div>
+    </div>
+</div>

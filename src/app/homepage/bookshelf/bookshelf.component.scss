@@ -1,0 +1,16 @@
+.taskbar-filter{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 60px;
+}
+.scale:hover{
+    transform: scale(1.15);
+}
+@media only screen and (max-width: 575px) {
+    .taskbar-filter{
+        height:100%
+    }
+    .margin-xs{
+        margin-top: 100px !important;
+    }
+}

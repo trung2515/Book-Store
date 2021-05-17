@@ -1,0 +1,250 @@
+
+    {
+      "id": 11,
+      "name": "Khởi nghiệp du kích",
+      "author": "Cao Bá Hải",
+      "source": "../../../assets/img/khoinghiepdukich.png",
+      "price": "160000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Kinh doanh có rất nhiều rủi ro. Đừng dại dột!",
+          "Content": "Đó là nhận định của số đông đã thất bại và cố gắng “tỏ ra thông thái”  bằng những lời khuyên hữu ích cho người đến sau. Thực tế thì hoàn toàn ngược lại!Kinh doanh không hề rủi ro như người ta đã thổi phồng.Giống như mọi ngành nghề, để khởi sự kinh doanh hiệu quả bạn cần có một lộ trình đúng đắn. "
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "siêu cò",
+      "author": "mino raiola",
+      "source": "../../../assets/img/sieuco.png",
+      "price": "220000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Trải lòng về những lần ép giá các CLB",
+          "Content": "Đó là nhận định của số đông đã thất bại và cố gắng “tỏ ra thông thái”  bằng những lời khuyên hữu ích cho người đến sau. Thực tế thì hoàn toàn ngược lại! Kinh doanh không hề rủi ro như người ta đã thổi phồng.Giống như mọi ngành nghề, để khởi sự kinh doanh hiệu quả bạn cần có một lộ trình đúng đắn."
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "book": [
+    {
+      "id": 1,
+      "name": "Cây Cam Ngọt Của Tôi",
+      "author": "Phan Đình Trung",
+      "source": "../../../assets/img/caycamngot.jpg",
+      "price": "100000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Những Bá Chủ Không Gian- The Space Barons",
+          "Content": "Ảo tưởng, tham vọng, bí mật và sự dối trá trong vụ lừa đảo lớn nhất Thung lũng Silicon Cuốn sách kể về vụ lừa đảo được coi là lớn nhất Thung lũng Silicon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ngữ Pháp Tiếng anh",
+      "author": "Bộ giáo dục và đào tạo",
+      "source": "../../../assets/img/nguphapta.jpg",
+      "price": "150000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2011,
+          "size": "16 x 24 cm",
+          "title": "Ngữ pháp Tiếng Anh tổng hợp các chủ điểm ngữ pháp trọng yếu mà học sinh cần nắm vững",
+          "Content": "Giải Thích Ngữ Pháp Tiếng Anh được biên soạn thành 9 chương, đề cập đến những vấn đề ngữ pháp từ cơ bản đến nâng cao, phù hợp với mọi trình độ. Các chủ điểm ngữ pháp trong từng chương được biên soạn chi tiết, giải thích cặn kẽ các cách dùng và quy luật mà người học cần nắm vững. Sau mỗi chủ điểm ngữ pháp là phần bài tập đa dạng nhằm giúp người học củng cố lý thuyết."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ổn định hay tự do",
+      "author": "Huỳnh Tiến Chương",
+      "source": "../../../assets/img/ondinhhaytudo.jpg",
+      "price": "100000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "ỔN ĐỊNH HAY TỰ DO (Yên ổn bạn thích không cho bạn được cuộc đời như mong muốn)",
+          "Content": "Trích dẫn lời khuyên đắt giá nhất trong cuốn sách: "Nhân lúc còn trẻ, chúng ta hãy cố gắng chạy thật nhanh, làm nhiều hơn những gì bạn muốn làm, phấn đấu không ngừng tiến lên, tin tưởng bản thân trong tương lai nhất định sẽ có một cuộc sống tuyệt vời."
+Vậy nên ỔN ĐỊNH hay TỰ DO? - bạn hãy kiên định lựa chọn"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Muôn kiếp nhân sinh",
+      "author": "Huỳnh Tiến Chương",
+      "source": "../../../assets/img/muonkiep.jpg",
+      "price": "100000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "CUỐN SÁCH CỦA NHỮNG CÁNH BƯỚM RUNG ĐỘNG",
+          "Content": "Tác phẩm Muôn Kiếp Nhân Sinh tập 1 của tác giả Nguyên Phong xuất bản giữa tâm điểm của đại dịch đã thực sự tạo nên một hiện tượng xuất bản hiếm có ở Việt Nam. Cuốn sách đã khơi dậy những trực cảm tiềm ẩn của con người, làm thay đổi góc nhìn cuộc sống và thức tỉnh nhận thức của chúng ta giữa một thế giới đang ngày càng bất ổn và đầy biến động. Ngoài việc phát hành hơn 200.000 bản trong 6 tháng, chưa kể lượng phát hành Ebook và Audio Book qua Voiz-FM, First News còn nhận được hàng ngàn tin nhắn, e-mail chuyển lời cảm ơn đến tác giả Nguyên Phong. Điều này chứng tỏ sức lan tỏa của cuốn sách đã tạo nên một hiện tượng trong văn hóa đọc của năm 2020."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sách Đen",
+      "author": "Phan Đình Trung",
+      "source": "../../../assets/img/sachden.jpg",
+      "price": "280000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2015,
+          "size": "16 x 24 cm",
+          "title": "Bạn là một phụ nữ thuộc tuýp workaholic?",
+          "Content": "”Sách Đen” là tuyển chọn những lời khuyên cho sự nghiệp được đúc kết từ những hiểu biết và trải nghiệm đầy khôn ngoan và sâu sắc của tác giả Otegha Uwagba (người sáng lập Women-Who, một cộng đồng được tạo ra để kết nối và giúp đỡ những người phụ nữ làm việc sáng tạo) cùng rất nhiều người người phụ nữ thành công khác."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hóa Học 10",
+      "author": "Bộ giáo dục và đào tạo",
+      "source": "../../../assets/img/hoahoc10.jpg",
+      "price": "260000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Sổ tay học nhanh toàn diện kiến thức và dạng bài Hóa học lớp 10",
+          "Content": "Tổng hợp toàn bộ những kiến thức trọng tâm của chương trình Hóa học THPT. Chỉ với cuốn sách này, các teen lớp 10 – 11 – 12 hoàn toàn có thể nắm chắc kiến thức để làm bài tập và ôn luyện trước các kì kiểm tra"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ngữ Văn 11",
+      "author": "Bộ giáo dục và đào tạo",
+      "source": "../../../assets/img/nguvan11.jpg",
+      "price": "150000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Đây là năm học có tính chất bản lề của bậc Trung học phổ thông, các em sẽ định hướng cho con đường học tập của mình",
+          "Content": "Phần thứ nhất: Những vấn đề chung về bồi dưỡng học sinh giỏi Văn 11. Phần này chúng tôi sẽ giới thiệu và cung cấp cho các em những kiến thức về Thơ mới. Thơ mới được học ở lớp 8 và lớp 11 với những thi phẩm hay nhưng cũng rất khó. Các em sẽ tiếp cận và chiếm lĩnh những đỉnh cao Thơ mới Việt Nam 1930-1945."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Từ Chối",
+      "author": "Huỳnh Tiến Chương",
+      "source": "../../../assets/img/tuchoi.jpg",
+      "price": "320000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Nghệ Thuật Từ Chối – Cách Nói Không Mà Vẫn Có Được Đồng Thuận",
+          "Content": "Từ chối một ai đó bằng việc nói “KHÔNG” ngay lập tức thì thật sỗ sàng. Chính vì vậy mà cách từ chối khéo không để lại “SẸO” luôn được nhiều người quan tâm. Vậy làm sao để có kỹ năng từ chối mà không mất lòng người khác, không làm rạn nứt mối quan hệ và cả hai người đều không cảm thấy khó xử? Bizbooks xin trân trọng gửi đến quý độc giả cuốn sách: “Nghệ Thuật Từ Chối – Cách Nói Không Mà Vẫn Có Được Đồng Thuận”"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hai số phận",
+      "author": "Phan Đình Trung",
+      "source": "../../../assets/img/2sophan.jpg",
+      "price": "220000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2015,
+          "size": "16 x 24 cm",
+          "title": "Hai Số Phận (Bìa Cứng) là cuốn sách không chỉ đơn thuần là một cuốn tiểu thuyết đây có thể coi như là "thánh kinh" ",
+          "Content": "“Hai số phận” làm rung động mọi trái tim quả cảm, nó có thể làm thay đổi cả cuộc đời bạn. Đọc cuốn sách này, bạn sẽ bị chi phối bởi cá tính của hai nhân vật chính, hoặc bạn là Kane, hoặc sẽ là Abel, không thể nào nhầm lẫn. Và điều đó sẽ khiến bạn thấy được chính mình."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Hoàng tử bé",
+      "author": "Antoine Griezmann",
+      "source": "../../../assets/img/hoangtube.jpg",
+      "price": "250000",
+      "description": [
+        {
+          "category": "Tiểu Thuyết",
+          "publishing": 2020,
+          "size": "16 x 24 cm",
+          "title": "Hoàng tử bé được viết ở New York trong những ngày tác giả sống lưu vong",
+          "Content": "Hoàng tử bé được viết ở New York trong những ngày tác giả sống lưu vong và được xuất bản lần đầu tiên tại New York vào năm 1943, rồi đến năm 1946 mới được xuất bản tại Pháp. Không nghi ngờ gì, đây là tác phẩm nổi tiếng nhất, được đọc nhiều nhất và cũng được yêu mến nhất của Saint-Exupéry. Cuốn sách được bình chọn là tác phẩm hay nhất thế kỉ 20 ở Pháp, đồng thời cũng là cuốn sách Pháp được dịch và được đọc nhiều nhất trên thế giới. Với 250 ngôn ngữ dịch khác nhau kể cả phương ngữ cùng hơn 200 triệu bản in trên toàn thế giới, Hoàng tử bé được coi là một trong những tác phẩm bán chạy nhất của nhân loại."
+        }
+      ]
+    }      ]
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "username": "trung",
+      "password": "123",
+      "cart": [
+       
+        {
+          "id": 1,
+          "name": "Cây Cam Ngọt Của Tôi",
+          "author": "Phan Đình Trung",
+          "source": "../../../assets/img/caycamngot.jpg",
+          "price": "100000",
+          "description": {
+            "category": "Tiểu Thuyết",
+            "publishing": 2020,
+            "size": "16 x 24 cm",
+            "title": "Những Bá Chủ Không Gian- The Space Barons",
+            "Content": "Ảo tưởng, tham vọng, bí mật và sự dối trá trong vụ lừa đảo lớn nhất Thung lũng Silicon Cuốn sách kể về vụ lừa đảo được coi là lớn nhất Thung lũng Silicon"
+          },
+          "quantity": 3,
+          "total": 300000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "chuong",
+      "password": "123"
+    }
+  ],
+  "cart": []
+}

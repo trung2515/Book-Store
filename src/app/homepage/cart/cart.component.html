@@ -1,0 +1,103 @@
+<div style="background-color: #f5f5fa;height: auto;min-height: 100vh;width: 100%;">
+    <app-header></app-header>
+    <div class="d-flex flex-column align-items-center ">
+        <div class=" container cart-header row d-none d-sm-flex">
+            <div class="col-sm-6 col-4 ">Sản Phẩm</div>
+            <div class="col-sm-3 col-4 text-center">
+                <div class="row  ">
+                    <div class="col-6">
+                        Đơn Giá
+                    </div>
+                    <div class="col-6">
+                        Số Lượng
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-4 text-center">
+                <div class="row">
+                    <div class="col-6">
+                        Thành Tiền
+                    </div>
+                    <div class="col-6">
+                        Thao Tác
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container cart-header m-0 row d-flex align-items-center" *ngFor="let item of listBook ">
+            <div class="col-sm-6 " *ngIf="!item.payment" >
+                <div class="row d-flex align-items-center">
+                    <div class="col-sm-1 d-block d-sm-flex justify-content-end"><input class="form-check-input"  type="checkbox"  (change)="addBuy(item.check = !item.check,item)"></div>
+                    <div class="col-sm-3 "><img class="img-fluid" src="{{item.source}}" alt=""></div>
+                    <div class="col-sm-8 text-ct">
+                        <strong class="text-ct">{{item.name}}</strong><br>
+                        <span class="text-ct">Tác giả :{{item.author}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-center " *ngIf="!item.payment">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                       <span class="d-inline d-sm-none">Đơn giá: </span> {{item.price}} VND
+                    </div>
+                    <div class="col-sm-6 text-center ">
+                        <span class="d-inline d-sm-none">Số lượng: </span>  {{item.quantity}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-center"  *ngIf="!item.payment">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="d-inline d-sm-none">Thành tiền: </span> {{item.total}} VND
+                    </div>
+                    <div class="col-sm-6">
+                        <button class="btn btn-danger" (click)="removeBook(item.code)">xóa</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container cart-header row ">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-3 text-center">
+                <div class="row  ">
+                    <div class="col-6">
+                        <div class="d-block d-sm-none"><span class="d-inline d-sm-none">Số lượng: </span>   {{totalBook}}</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-block d-sm-none"><span class="d-inline d-sm-none">Thành Tiền: </span>  {{totalMoney}}  VND</div>
+                        <div class="d-none d-sm-block">{{totalBook}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-center">
+                <div class="row">
+                    <div class="col-sm-6 d-none d-sm-block">
+                        {{totalMoney}}  VND
+                    </div>
+                    <div class="col-sm-6 p-3 p-sm-0">
+                        <button class="btn btn-success" data-toggle="modal" data-target="#thanhtoan">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="thanhtoan" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog" >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Thanh Toán</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Xác Nhận Thanh Toán : {{totalMoney}}   VND</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                  <button type="button" class="btn btn-primary"  (click)="buyBook()">Xác Nhận</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>

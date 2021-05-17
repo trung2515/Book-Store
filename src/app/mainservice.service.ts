@@ -21,4 +21,8 @@ export class MainService {
     let url = uri+ '/' + param['id']
      return this.http.delete(url, param)
   }
+  patch(uri:string,param:any) {
+    let url = uri+ '/' + param['id']
+     return this.http.patch(url, param)
+  }
 }

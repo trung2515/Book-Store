@@ -1,23 +1,20 @@
-<div class="login-header">
-    <img src="../../assets/img/logoTrupo.jpg" alt="logo" width="180x" height="80px" style="margin: 10px 0px 0px 10px;">
-</div>
-
-<div style="padding: 2% 5% ">
-    <div class="login-input">
-        <div>
-            <label  for="account">Tài khoản</label>
-            <input id="account" type="text" placeholder="Nhập tài khoản" [(ngModel)]="account">
-            
+<div class="login">
+    <div class="card-login">
+        <div class="d-flex flex-column align-item-center">
+             <span class="font-title">Đăng Nhập Hệ Thống </span>
+            <span style="color: red;font-size: 12px;width: 100%;height: 20px;text-align: center;">{{status}}</span>
         </div>
-            
-        <div>
-            <label  for="password">Mật Khẩu</label>
-            <input id="password" type="password" placeholder="Nhập mật khẩu" [(ngModel)]="password" (keyup.enter)="login()">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1" >Tài Khoản</span>
+            <input type="text" class="form-control" placeholder="Username" [(ngModel)]="username">
         </div>
-        <div><button (click)="login()">Đăng nhập</button></div>
-        <div><button><a style="text-decoration: none; color: black;" routerLink="/create" routerLinkActive="active">Đăng ký</a></button></div>
-        <div style="display: flex;justify-content: center; padding: 20px  0 0 0 ; "><h1>{{checkLg}}</h1></div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1" >Mật Khẩu</span>
+            <input type="text" class="form-control" type="password" placeholder="Password" [(ngModel)]="password" (keyup.enter)="login()">
+        </div>
+        <button class="btn btn-primary w-100 mb-2" (click)="login()"> Đăng Nhập</button>
+        <button class="btn btn-primary w-100 " routerLink="/create"> Đăng ký</button>
+        <a  routerLink="" > Quên mật khẩu </a>
     </div>
-    
-
+ 
 </div>
